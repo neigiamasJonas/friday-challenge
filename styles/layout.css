@@ -1,7 +1,4 @@
-main {
-    width: 100%;
-    position: relative;
-}
+
 nav {
     width: 100px;
     height: 100vh;
@@ -45,7 +42,6 @@ nav:hover > .bit-logo {
     height: 57px;
     margin: 42px 0px 42px 11px;
     background-color: var(--white);
-    border: 0;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     position: relative;
@@ -70,6 +66,7 @@ nav:hover > .bit-logo {
 
 .other-logo {
     width: 100%;
+    height: 57px;
     margin-bottom: 34px;
     margin: 0 0 34px 37px;
     position: relative;
