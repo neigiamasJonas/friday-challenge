@@ -9,16 +9,11 @@ nav {
     top: 0px;
     background: var(--navgray);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
 }
-
 nav:hover {
     width: 206px;
 }
-.nav-buttons {
-    width: 100%;
-    display: inline-block;
-}
-
 .bit-logo {
     width: 100px;
     padding: 52px 16px 24px;
@@ -40,6 +35,11 @@ nav:hover > .bit-logo {
     height: 0;
     margin: 0px 20% 32px;
 }
+.nav-buttons {
+    width: 100%;
+    display: inline-block;
+}
+
 .home {
     width: 100%;
     height: 57px;
@@ -49,6 +49,7 @@ nav:hover > .bit-logo {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     position: relative;
+    display: inline-block;
 
 }
 .home > img {
@@ -71,7 +72,8 @@ nav:hover > .bit-logo {
     width: 100%;
     margin-bottom: 34px;
     margin: 0 0 34px 37px;
-    position: relative;  
+    position: relative;
+    display: inline-block;  
 }
 
 .other-logo:last-of-type {
@@ -86,17 +88,6 @@ nav:hover > .bit-logo {
     color: var(--text);
     text-decoration: none;
 }
-
-nav:hover > .links {
-    margin-left: 19px;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: var(--text);
-    text-decoration: none;
-}
-
-
 
 .footer {
     width: 364px;
