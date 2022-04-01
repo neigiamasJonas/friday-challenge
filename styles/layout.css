@@ -14,12 +14,6 @@ nav {
 nav:hover {
     width: 206px;
 }
-nav:hover > .bit-logo {
-    width: 128px;
-    margin: 0px 39px;
-    padding: 44px 30px 42px;
-}
-
 .nav-buttons {
     width: 100%;
     display: inline-block;
@@ -29,6 +23,11 @@ nav:hover > .bit-logo {
     width: 100px;
     padding: 52px 16px 24px;
     display: inline-block;
+}
+nav:hover > .bit-logo {
+    width: 128px;
+    margin: 0px 39px;
+    padding: 44px 30px 42px;
 }
 .bit-logo > img {
     width: 68px;
