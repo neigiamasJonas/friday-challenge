@@ -1,0 +1,131 @@
+main {
+    width: 100%;
+    position: relative;
+}
+nav {
+    width: 100px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: var(--navgray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav:hover {
+    width: 206px;
+}
+nav:hover > .bit-logo {
+    width: 128px;
+    margin: 0px 39px;
+    padding: 44px 30px 42px;
+}
+
+.nav-buttons {
+    width: 100%;
+    display: inline-block;
+}
+
+.bit-logo {
+    width: 100px;
+    padding: 52px 16px 24px;
+    display: inline-block;
+}
+.bit-logo > img {
+    width: 68px;
+    height: 34px;
+}
+
+.line {
+    width: 60%;
+    border-bottom: 2px solid var(--text);
+    height: 0;
+    margin: 0px 20% 32px;
+}
+.home {
+    width: 100%;
+    height: 57px;
+    margin: 42px 0px 42px 11px;
+    background-color: var(--white);
+    border: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+
+}
+.home > img {
+    width: 25px;
+    height: 25px;
+    margin: 16px 19px 16px 32px;
+}
+
+.home > a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 57px;
+    text-align: center;
+    color: var(--blue);
+    text-decoration: none;
+}
+
+.other-logo {
+    width: 100%;
+    margin-bottom: 34px;
+    margin: 0 0 34px 37px;
+    position: relative;  
+}
+
+.other-logo:last-of-type {
+    margin-left: 30px;
+}
+
+.links {
+    margin-left: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--text);
+    text-decoration: none;
+}
+
+nav:hover > .links {
+    margin-left: 19px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--text);
+    text-decoration: none;
+}
+
+
+
+.footer {
+    width: 364px;
+    height: 24px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0px;
+    position: absolute;
+    border-top: 1px solid var(--blue);
+}
+
+.footer-text {
+    width: 184px;
+    height: 24px;
+    margin-top: 11px;
+    margin-left: 90px;
+    position: absolute;
+
+}
+
+.footer-text > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 0px;
+    text-align: center;
+    color: var(--blue);
+    margin-top: 6.5px;
+    top: 0px;
+}
