@@ -9,9 +9,11 @@ Design: [bit](https://www.figma.com/file/uaVXnAQh9QxVsUD1RcQEbt/Friday-Challenge
 
 ## Project features
 
--   Hover
 -   Nav
 -   Footer
+-   Hover
+-   Transition
+-   Flex
 
 ## Authors
 
