@@ -1,91 +1,102 @@
 .nav {
-    background-color: var(--nav-bg-color);
-    max-width: 100px;
-    height: 100%;
-    position: fixed;
-    transition: max-width 0.4s ease-in 0.2s;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .nav .logo {
-    margin: 52px 0 24px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  .nav hr {
-    width: 62px;
-    max-width: 62px;
-    height: 2px;
-    background-color: var(--grey-color);
-    margin: auto;
-    border: none;
-    margin-bottom: 32px;
-    transition: max-width 0.4s ease-in 0.2s;
-  }
-  .nav .icon-bg {
-    border-radius: 25px 0 0 25px;
-    margin-left: 11px;
-    padding: 0;
-    background-color: transparent;
-    margin: 34px 0 34px 11px;
-    display: flex;
-    align-items: center;
-  }
-  .nav .icon-bg:last-child .icon {
-    left: 30px;
-  }
-  .nav .icon-bg:last-child a {
-    margin-left: 49px;
-  }
-  .nav .icon-bg.active {
-    padding: 16px;
-    background-color: var(--white-color);
-  }
-  .nav .icon-bg.active .icon {
-    left: 26px;
-  }
-  .nav .icon-bg.active a {
-    color: var(--secondary-color);
-    margin-left: 42px;
-  }
-  .nav .icon-bg .icon {
-    position: relative;
-    left: 37px;
-  }
-  .nav .icon-bg a {
-    position: relative;
-    margin-left: 56px;
-    color: var(--grey-color);
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.5s linear;
-    transition-delay: 0.2s;
-  }
-  .nav .icon-bg a:hover {
-    text-decoration: underline;
-  }
-  .nav:hover {
-    max-width: 206px;
-    width: 206px;
-  }
-  .nav:hover hr {
-    width: 128px;
-    max-width: 128px;
-  }
-  .nav:hover a {
-    visibility: visible;
-    opacity: 1;
-  }
+  width: 84px;
+  max-width: 100px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: var(--nav-bg-color);
+  transition: ease-out 0.5s;
   
-  footer {
-    position: absolute;
-    bottom: 0px;
-    width: 346px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: var(--secondary-color);
-    font-size: 11px;
-    border-top: 1px solid var(--secondary-color);
-    padding: 11px 0;
-  }
+
+}
+
+.nav:hover {
+  width: 200px;
+  max-width: 200px;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  background-color: var(--nav-bg-color);
+  transition: ease-in 0.5s;
+
+}
+
+.nav .logo {
+  width: 60px;
+  height: 30px;
+  padding: 30px 12px 20px 12px;
+  transition: ease-out 0.5s;
+}
+
+.nav:hover .logo {
+  width: 60px;
+  height: 30px;
+  padding: 30px 70px 20px 70px;
+  transition: ease-in 0.5s;
+}
+
+.nav hr {
+  width: 65%;
+  height: 0px;
+  align-self: center;
+  border: 2px solid var(--grey-color);
+}
+
+.nav .nav-btn {
+  height: 50px;
+  margin: 0px 0px 5px 10px;
+  display: flex;
+}
+.nav .nav-btn.active {
+  background-color: #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+.nav .icon {
+  width: 22px;
+  height: 22px;
+  margin: 14px 23px 14px 20px;
+}
+
+.nav a {
+  visibility: hidden;
+  transition-delay: 0.15s;
+  
+}
+.nav:hover a {
+  visibility: visible;
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 17px;
+  color: var(--grey-color);
+  transition-delay: 0.4s;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav .nav-btn:first-of-type {
+  margin-top: 10px;
+}
+
+.nav .nav-btn:last-of-type .icon {
+  width: 34px;
+  margin: 14px 15px 14px 15px;
+}
+
+.foot {
+  width: 300px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  font-size: 9px;
+  text-align: center;
+  color: var(--secondary-color);
+  border-top: 2px solid var(--secondary-color);
+  padding: 5px 0;
+
+
+}
